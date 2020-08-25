@@ -68,11 +68,12 @@ IUCN = unique(data$IUCN)
 OUT = NULL
 for(i in 1:length(IUCN)){
   t = data[data$IUCN==as.character(IUCN[i]),,drop=F]
-  below0   = nrow(t[t$t_prim<0,,drop=F])
-  below10  = nrow(t[t$t_prim<10,,drop=F])  - nrow(t[t$t_prim<0,,drop=F])
-  below50  = nrow(t[t$t_prim<50,,drop=F])  - nrow(t[t$t_prim<10,,drop=F])
-  below100 = nrow(t[t$t_prim<100,,drop=F]) - nrow(t[t$t_prim<50,,drop=F])
-  over100  = nrow(t[t$t_prim>=100,,drop=F])
+  below0 = below10 = below50 = below1000 = over100 = 0
+  below0   = sum(t$Nlocations[t$t_prim<0])
+  below10  = sum(t$Nlocations[t$t_prim<10])  - below0
+  below50  = sum(t$Nlocations[t$t_prim<50])  - below0 - below10
+  below100 = sum(t$Nlocations[t$t_prim<100]) - below0 - below10 - below50
+  over100  = sum(t$Nlocations[t$t_prim>=100])
 
   OUT = rbind(OUT, c(as.character(IUCN[i]), below0, below10, below50, below100, over100, sum(t$Nlocations)))
 }
