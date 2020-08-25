@@ -1,4 +1,4 @@
-setwd("~/Desktop/primate_ht/")
+setwd("/Users/jannawilloughby/GDrive/primate_heterozygosity/")
 library(scales)
 library(vioplot)
 
@@ -14,7 +14,7 @@ family = as.character(unique(data$Family))
 family = family[order(family)]
 
 #set up plot
-pdf("figure1.pdf", height=7, width=7, onefile=T)
+pdf("../figure1.pdf", height=7, width=7, onefile=T)
 par(bty='n')
 plot(-100,-100, xlim=c(0.25,5.75), ylim=c(0,1.06), ylab="", xlab="", axes=F)
 axis(side=1, at=seq(1,5,1), labels=family, tick=T, pos=0)
@@ -37,7 +37,7 @@ for(f in 1:length(family)){
 }
 familydata = as.data.frame(OUT)
 colnames(familydata) = c("family", "Ho_mean", "Ho_median","Ho_sd", "npops")
-write.table(familydata, "familydata.csv", col.names = T, row.names = F, sep=",")
+write.table(familydata, "../familydata.csv", col.names = T, row.names = F, sep=",")
 dev.off()
 
 ####IUCN rank mean/sd H####
@@ -49,7 +49,7 @@ for(i in 1:length(IUCN)){
 }
 IUCNdata = as.data.frame(OUT)
 colnames(IUCNdata) = c("IUCN", "Ho_mean", "Ho_sd", "npops")
-write.table(IUCNdata, "IUCNdata.csv", col.names = T, row.names = F, sep=",")
+write.table(IUCNdata, "../IUCNdata.csv", col.names = T, row.names = F, sep=",")
 
 ####IUCN rank mean/sd H####
 IUCN = unique(data$IUCN)
@@ -61,7 +61,7 @@ for(i in 1:length(IUCN)){
 }
 IUCNTdata = as.data.frame(OUT)
 colnames(IUCNTdata) = c("IUCN", "t_prim", "Ho_sd", "npops")
-write.table(IUCNTdata, "IUCNTdata.csv", col.names = T, row.names = F, sep=",")
+write.table(IUCNTdata, "../IUCNTdata.csv", col.names = T, row.names = F, sep=",")
 
 ####t cutoff IUCN rank####
 IUCN = unique(data$IUCN)
@@ -79,6 +79,6 @@ for(i in 1:length(IUCN)){
 }
 IUCNttdata = as.data.frame(OUT)
 colnames(IUCNttdata) = c("IUCN", "below0", "below10", "below50", "below100", "over100", "npops")
-write.table(IUCNttdata, "IUCNttdata.csv", col.names = T, row.names = F, sep=",")
+write.table(IUCNttdata, "../IUCNttdata.csv", col.names = T, row.names = F, sep=",")
 
 
