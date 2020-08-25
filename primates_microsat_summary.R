@@ -80,5 +80,3 @@ for(i in 1:length(IUCN)){
 IUCNttdata = as.data.frame(OUT)
 colnames(IUCNttdata) = c("IUCN", "below0", "below10", "below50", "below100", "over100", "npops")
 write.table(IUCNttdata, "../IUCNttdata.csv", col.names = T, row.names = F, sep=",")
-
-
