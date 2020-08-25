@@ -1,0 +1,62 @@
+﻿Species,,IUCN category,Num. loci,Num. indv,Mean HO,Est. N,Est. NE,t
+Aotidae,,,,,,,,
+,Aotus azarae,LC,13,128,0.46,715,100,-14.34
+,Aotus azarae,LC,17,7,0.44,715,100,-22.36
+,Aotus lemurinus,V,17,4,0.52,715,100,11.08
+,Aotus nancymaae,V,17,8,0.60,715,100,39.73
+Atelidae,,,,,,,,
+,Alouatta pigra,E,22,64,0.51,715,100,7.19
+,Alouatta belzebul,V,15,92,0.65,715,100,55.75
+,Alouatta caraya,NT,10,178,0.44,235,33,13.80
+,Alouatta caraya,NT,13,138,0.42,235,33,10.17
+,Alouatta caraya,NT,9,48,0.60,715,100,39.06
+,Alouatta caraya,NT,9,20,0.55,715,100,21.95
+,Alouatta guariba ,V,8,151,0.34,715,100,-74.57
+,Alouatta macconnelli,LC,9,114,0.75,715,100,83.87
+,Alouatta macconnelli,LC,9,7,0.57,715,100,28.40
+,Alouatta palliata mexicana,V,26,20,0.17,715,100,-212.75
+,Alouatta palliata,V,9,48,0.45,715,100,-16.98
+,Alouatta palliata aequatorialis,V,10,76,0.56,715,100,27.34
+,Alouatta palliata aequatorialis,V,8,89,0.51,715,100,7.19
+,Alouatta palliata mexicana,E,29,70,0.21,715,100,-170.44
+,Alouatta palliata mexicana,E,22,140,0.32,20000,2800,-2408.88
+,Alouatta palliata mexicana,E,8,8,0.14,715,100,-251.62
+,Alouatta palliata palliatta,E,8,29,0.33,715,100,-79.96
+,Alouatta pigra,E,21,107,0.56,715,100,24.48
+,Alouatta pigra,E,26,20,0.45,715,100,-17.86
+,Alouatta pigra,E,8,28,0.45,715,100,-17.86
+,Alouatta seniculus,LC,9,84,0.64,715,100,52.02
+,Ateles geoffroyi,E,8,185,0.59,715,100,35.51
+,Brachyteles arachnoides,CE,16,49,0.71,715,100,72.02
+,Brachyteles arachnoides,CE,14,55,0.35,715,100,-67.04
+,Brachyteles hypoxanthus,CE,17,67,0.68,300,42,27.18
+,Lagothrix lagotricha,V,8,111,0.80,715,100,96.07
+Callitrichidae,,,,,,,,
+,Callithrix jacchus,LC,44,80,0.62,715,100,46.29
+,Callithrix jacchus,LC,11,40,0.41,715,100,-36.50
+,Callithrix penicillata,LC,44,44,0.62,715,100,46.29
+,Leontocebus weddelli ,LC,13,49,0.86,715,100,112.27
+,Leontopithecus caissara,CE,9,34,0.48,715,100,-4.94
+,Leontopithecus caissara,CE,9,34,0.56,715,100,26.27
+,Leontopithecus chrysomelas,E,9,29,0.63,715,100,49.50
+,Leontopithecus chrysopygus,E,15,10,0.67,715,100,62.72
+,Leontopithecus chrysopygus,E,7,14,0.40,715,100,-41.02
+,Leontopithecus rosalia,E,4,57,0.49,715,100,0.20
+,Saguinus leucopus,E,12,19,0.69,715,100,67.71
+,Saguinus geoffroyi,NT,12,59,0.56,715,100,25.92
+,Saguinus leucopus,E,8,115,0.47,715,100,-7.88
+,Saguinus midas,LC,9,90,0.74,715,100,80.90
+,Saguinus mystax,LC,12,69,0.74,715,100,81.72
+,Saguinus mystax,LC,10,10,0.60,715,100,41.06
+,Saguinus oedipus,CE,12,19,0.56,715,100,25.92
+Cebidae,,,,,,,,
+,Cebus capucinus*,LC,17,187,0.62,715,100,47.26
+,Saimiri oerstedii citrinellus,E,16,233,0.48,1000,140,-4.34
+,Sapajus nigritus,NT,10,21,0.57,715,100,29.46
+,Sapajus nigritus,NT,3,55,0.71,715,100,73.43
+Pitheciidae,,,,,,,,
+,Plectorocebus discolor,LC,13,17,0.63,715,100,49.18
+,Pithecia aequatorialis,LC,13,10,0.73,715,100,79.27
+,Plecturocebus modestus,E,6,31,0.37,715,100,-59.45
+,Plecturocebus moloch,LC,4,23,0.33,715,100,-79.96
+,Plecturocebus olallae,E,6,23,0.31,715,100,-89.52
