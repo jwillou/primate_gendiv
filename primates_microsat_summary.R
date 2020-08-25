@@ -2,7 +2,7 @@ setwd("/Users/jannawilloughby/GDrive/primate_heterozygosity/")
 library(scales)
 library(vioplot)
 
-data = read.table("IUCN_t3.csv", header=T, sep=",")
+data = read.table("primates_microsat_analysis_input.csv", header=T, sep=",")
 colnames(data) = c("Publications", "Family", "Sp", "NMicrosats", "IUCN", "t_prim_old", "t_prim", "N", "Ne", "Ht_prim", "Ho_mean", "Ho_sd", "Ne", "Nlocations", "Nsamples")
 
 length(table(data$Sp))
